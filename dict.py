@@ -34,7 +34,7 @@ def validatePin(x):
         if len(x) == 4:
             # Display all the data from the dict
             for user in data:
-                # Check if the input pin is existed in the data
+                # Check if the input pin is existing in the data
                 if user["pin"] == int(x):
                     #print the specific information that contains the input pin
                     print(user["firstname"])
